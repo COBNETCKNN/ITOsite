@@ -1,0 +1,33 @@
+// importing custom fonts
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+// importing tailwind components
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+.menu{
+    display: flex;
+}
+
+.menu-item {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+#menu-first-footer-menu-1 {
+    display: block;
+}
+
+#menu-first-footer-menu-1 li {
+    margin-bottom: 1rem;
+}
+
+#menu-second-footer-menu {
+    display: block;
+}
+
+#menu-second-footer-menu li {
+    margin-bottom: 1rem;
+}

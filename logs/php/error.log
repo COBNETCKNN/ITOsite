@@ -1,0 +1,126 @@
+[25-May-2021 14:10:04 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, int given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 951
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:10:04 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:10:04 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:10:04 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:10:04 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:10:04 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:10:04 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:10:04 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:10:04 UTC] PHP  10. array_filter() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951
+[25-May-2021 14:10:04 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 952
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:10:04 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:10:04 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:10:04 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:10:04 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:10:04 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:10:04 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:10:04 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:10:04 UTC] PHP  10. array_values() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:952
+[25-May-2021 14:10:04 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 953
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:10:04 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:10:04 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:10:04 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:10:04 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:10:04 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:10:04 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:10:04 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:10:04 UTC] PHP  10. array_map() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:953
+[25-May-2021 14:10:04 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 954
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:10:04 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:10:04 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:10:04 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:10:04 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:10:04 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:10:04 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:10:04 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:10:04 UTC] PHP  10. array_map() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:954
+[25-May-2021 14:10:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php on line 1329
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. redirect_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:234
+[25-May-2021 14:10:04 UTC] PHP   3. wp_redirect() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:2034
+[25-May-2021 14:10:04 UTC] PHP   4. header() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php:1329
+[25-May-2021 14:10:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php on line 1332
+[25-May-2021 14:10:04 UTC] PHP Stack trace:
+[25-May-2021 14:10:04 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:10:04 UTC] PHP   2. redirect_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:234
+[25-May-2021 14:10:04 UTC] PHP   3. wp_redirect() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:2034
+[25-May-2021 14:10:04 UTC] PHP   4. header() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php:1332
+[25-May-2021 14:12:10 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, int given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 951
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:12:10 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:12:10 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:12:10 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:12:10 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:12:10 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:12:10 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:12:10 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:12:10 UTC] PHP  10. array_filter() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951
+[25-May-2021 14:12:10 UTC] PHP Warning:  array_values() expects parameter 1 to be array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 952
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:12:10 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:12:10 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:12:10 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:12:10 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:12:10 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:12:10 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:12:10 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:12:10 UTC] PHP  10. array_values() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:952
+[25-May-2021 14:12:10 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 953
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:12:10 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:12:10 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:12:10 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:12:10 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:12:10 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:12:10 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:12:10 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:12:10 UTC] PHP  10. array_map() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:953
+[25-May-2021 14:12:10 UTC] PHP Warning:  array_map(): Expected parameter 2 to be an array, null given in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php on line 954
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. edit_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:227
+[25-May-2021 14:12:10 UTC] PHP   3. wp_update_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:419
+[25-May-2021 14:12:10 UTC] PHP   4. wp_insert_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4486
+[25-May-2021 14:12:10 UTC] PHP   5. do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\post.php:4384
+[25-May-2021 14:12:10 UTC] PHP   6. WP_Hook->do_action() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\plugin.php:484
+[25-May-2021 14:12:10 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:316
+[25-May-2021 14:12:10 UTC] PHP   8. acf_admin_field_group->save_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\class-wp-hook.php:294
+[25-May-2021 14:12:10 UTC] PHP   9. acf_update_field() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\admin\admin-field-group.php:469
+[25-May-2021 14:12:10 UTC] PHP  10. array_map() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:954
+[25-May-2021 14:12:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php on line 1329
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. redirect_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:234
+[25-May-2021 14:12:10 UTC] PHP   3. wp_redirect() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:2034
+[25-May-2021 14:12:10 UTC] PHP   4. header() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php:1329
+[25-May-2021 14:12:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:951) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php on line 1332
+[25-May-2021 14:12:10 UTC] PHP Stack trace:
+[25-May-2021 14:12:10 UTC] PHP   1. {main}() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:0
+[25-May-2021 14:12:10 UTC] PHP   2. redirect_post() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\post.php:234
+[25-May-2021 14:12:10 UTC] PHP   3. wp_redirect() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-admin\includes\post.php:2034
+[25-May-2021 14:12:10 UTC] PHP   4. header() C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-includes\pluggable.php:1332
+[25-May-2021 15:07:09 UTC] PHP Parse error:  syntax error, unexpected 'page_id' (T_STRING), expecting ')' in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 32
+[25-May-2021 15:08:40 UTC] PHP Parse error:  syntax error, unexpected '$facebookLink' (T_VARIABLE) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 41
+[25-May-2021 15:09:30 UTC] PHP Parse error:  syntax error, unexpected '$facebookLink' (T_VARIABLE) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 43
+[25-May-2021 15:09:43 UTC] PHP Parse error:  syntax error, unexpected 'print_r' (T_STRING) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 46
+[25-May-2021 15:10:16 UTC] PHP Parse error:  syntax error, unexpected '$facebookLink' (T_VARIABLE) in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 43
+[25-May-2021 15:11:59 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')' in C:\Users\COBNETCKNN\Local Sites\itosite\app\public\wp-content\themes\ITOtheme\footer.php on line 32
