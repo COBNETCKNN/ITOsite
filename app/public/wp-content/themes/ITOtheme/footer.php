@@ -2,7 +2,7 @@
 
 
 <!-- FOOTER -->
-<section id="footer" class="bg-background footer h-80 flex flex-wrap content-center">
+<section id="footer" class="bg-background footer h-80 flex flex-wrap content-center font-ubuntu">
     <div class="container m-auto">
         <div class="grid grid-cols-4 gap-4 h-44">
             <!-- LOGO SECTION -->
@@ -47,16 +47,16 @@
             <div class="">
                 <div class="flex justify-start">
                     <!-- INSTAGRAM -->
-                    <a href="<?php echo $instagramLink; ?>">
-                     <i class="fab fa-instagram  text-5xl text-socialmedia mr-14"></i>
+                    <a href="<?php echo $instagramLink; ?>" target="_blank">
+                     <i class="fab fa-instagram  text-4xl text-socialmedia hover:text-red-500 mr-14"></i>
                     </a>
                     <!-- TWITTER -->
-                    <a href="<?php echo $twitterLink; ?>">
-                     <i class="fab fa-twitter  text-5xl text-socialmedia mr-14"></i>
+                    <a href="<?php echo $twitterLink; ?>" target="_blank">
+                     <i class="fab fa-twitter  text-4xl text-socialmedia hover:text-blue-500 mr-14"></i>
                     </a>
                     <!-- FACEBOOK -->
-                    <a href="<?php echo $facebookLink; ?>">
-                    <i class="fab fa-facebook-f  text-5xl text-socialmedia mr-14"></i>
+                    <a href="<?php echo $facebookLink; ?>" target="_blank">
+                    <i class="fab fa-facebook-f  text-4xl text-socialmedia hover:text-blue-700 mr-14"></i>
                     </a>                  
                 </div>
                 <div class="relative h-32 w-32">

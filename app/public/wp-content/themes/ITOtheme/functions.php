@@ -38,3 +38,26 @@ function custom_footer_menus() {
     );
 }
 add_action( 'init', 'custom_footer_menus' );
+
+/* REGISTRATION OF CUSTOM POST TYPES */
+
+//recipes
+function itosite_post_types(){
+    register_post_type('recipes', array(
+        'public' => true,
+        'labels' => array(
+            'name' => 'Recipes',
+            'add_new_item' => 'Add New Recipe',
+            'edit_item' => 'Edit Recipe',
+            'all_items' => 'All Recipes',
+            'singular_name' => 'Recipes'
+        ),
+        'menu_icon' => 'dashicons-food',
+        'rewrite' => array('slug' => 'recipe'),
+        'supports' => array('title', 'thumbnail'),
+
+    ));
+
+}
+
+add_action('init', 'itosite_post_types');

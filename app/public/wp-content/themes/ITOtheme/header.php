@@ -13,7 +13,7 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<section id="navbar" class="bg-background h-44 w-full flex flex-wrap content-center">
+<section id="navbar" class="bg-background h-44 w-full flex flex-wrap content-center font-ubuntu">
     <div class="container m-auto">   
         <div class="grid grid-cols-3 gap-4 h-1/2 w-full">
         <!-- LEFT SECTION -->
