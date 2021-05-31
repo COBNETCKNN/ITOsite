@@ -15,7 +15,7 @@
     
     ?>
 
-<section id="relative" class="bg-background font-ubuntu">
+<section id="hero" class="relative bg-background font-ubuntu">
   <div class="container m-auto pt-36 pb-32">
     <div class="grid grid-cols-2">
       <!-- FIRST COLUMN ABOUT DOWNLOAD-->
@@ -82,17 +82,77 @@
       </div>
     </div>
   </div>
+  <?php 
+   }
+  wp_reset_postdata(); ?>
 </section>
 
 <!-- RECIPE SECTION -->
+<section id="recipe" class="relative pt-20 bg-background font-ubuntu">
+    <div class="container m-auto">
+      <div class="grid grid-cols-2 mx-auto">
+        <!-- RECIPE COLUMN -->
+        <div class="recipe_grid grid grid-cols-2 flex justify-center ">
 
+          <?php 
+          // custom query for recipes custom post type
+          $recipeQuery = new WP_Query(array(
+            'post_type'      => 'recipes',
+            'posts_per_page' => 2,
+            'meta_query'     => array(
+              'key'     => 'featured_recipe',
+              'value'   => '"Yes"',
+              'compare' => 'LIKE'
+              
+            )
+          ));
 
+          while($recipeQuery->have_posts()){
+            $recipeQuery->the_post(); 
+            
+            //acf fields for nutrition
+            $recipeCalories = get_field('nutrition_calorias');
+            $recipeFat = get_field('nutrition_grasas');
+            
+            ?>
 
+        <div class="recipe_card">
+            <?php the_post_thumbnail('recipe-example'); ?>
+            <div class="">
+             <img src="<?php echo get_template_directory_uri() . '/img/rectangle2.png'; ?>" alt="" class="recntagle_two flex relative z-0">
+             <h2 class="recipe_text text-4xl font-semibold text-blacktext"><?php the_title(); ?></h2>
+             <div class="nutrition flex text-3xl font-semibold">
+              <p class="calories text-redtext"><?php echo $recipeCalories; ?></p>
+              <p class="calories ml-11"><?php echo $recipeFat; ?>g</p>
+             </div>
+             <div class="nutrition_text flex text-xs text-textgray">
+               <p class="ml-1">calorias</p>
+               <p class="ml-14">grasas</p>
+             </div>
+             <div class="redirect_button">
+               <a href="<?php the_permalink(); ?>">
+                <img src="<?php echo get_template_directory_uri() . '/img/redirect.png'; ?>" alt="">
+               </a>
+             </div>
+            </div>
+        </div>
+        <?php } 
+          wp_reset_postdata();
+        ?>
 
-
-<?php
-  }
-?>
+        </div>
+        <!-- TEXT COLUMN -->
+        <div class="text_recipe__column">
+          <!-- GREY LINE -->
+           <div class="grey-line bg-blacktext p-1 rounded-3xl w-14"></div>
+           <h2 class="mt-8 text-blacktext text-5xl font-bold leading-snug"><span class="text-green-register">Descubre</span> que tan fácil crear alimentos saludables</h2>
+            <!-- GREEN CIRCLE -->
+           <div class="green_circle__recipe bg-green-light rounded-full w-72 h-72"></div>
+           <p class="text-textgray text-2xl mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas accumsan odio, cursus laoreet mauris porttitor non. Aliquam eu neque nibh. Aenean non pellentesque justo.</p>
+        </div>
+      </div>
+    </div>
+</section>
 
 
 <?php get_footer(); ?>

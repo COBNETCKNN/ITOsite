@@ -17,6 +17,7 @@ module.exports = {
         },
         footermenu: '#3A466D',
         socialmedia: '#929FC7',
+        redtext: '#EE6A6E',
       }
     },
   },
