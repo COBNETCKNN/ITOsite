@@ -7,6 +7,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .menu{
     display: flex;
 }
@@ -85,8 +90,214 @@
     width: 615px;
 }
 
+.text_showcase__column {
+    width: 636px;
+}
+
 .green_circle__recipe {
     position: absolute;
     z-index: 0;
     margin-left: 1000px;
 }
+
+.showcase_screenshot {
+    position: absolute;
+    z-index: 2;
+    margin-top: -270px;
+}
+
+.showcase_rectangle__right {
+    position: absolute;
+    z-index: 1;
+    margin-left: 290px;
+    margin-top: -300px;
+}
+
+.showcase_screenshot__left {
+    position: absolute;
+    z-index: 1;
+    margin-left: -980px;
+    margin-top: -650px;
+}
+
+@media (min-width: 1024px) {
+  .top-navbar {
+    display: -webkit-inline-box !important;
+    display: -ms-inline-flexbox !important;
+    display: inline-flex !important;
+  }
+}
+
+@media (max-width: 1024px) {
+	.hero_rectangle {
+		display: none;
+	}
+
+	.showcase_rectangle__right {
+		display: none;
+	}
+
+	.green_circle__recipe {
+		display: none;
+	}
+
+	.text_recipe__column {
+		width: auto;
+	}
+
+	.text_showcase__column {
+		width: auto;
+	}
+
+    .menu {
+        display:block;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .menu-item {
+        margin-top: 1rem;
+    }
+
+}
+
+@media (max-width: 640px) {
+    .container {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .logo {
+        width: 42px;
+        height: 39px;
+    }
+
+    .footer_menus {
+        display: none;
+    }
+
+    .hero_screenshots__first {
+        position: static;
+        max-width: 75%;
+        margin-top: 0px;
+    }
+
+    .hero_screenshots__second {
+        position: static;
+        max-width: 75%;
+    }
+
+    .first_screenshot {
+        max-width: 70%;
+        margin-left: -80px;
+        margin-top: 0px;
+    }
+
+    .second_screenshot {
+        max-width: 54%;
+        margin-left: -40px;
+        margin-top: 160px;
+    }
+
+    .first_screenshot__desc {
+        max-width: 70%;
+        margin-left: 0px;
+        margin-top: 80px;
+    }
+
+    .second_screenshot__desc {
+        max-width: 54%;
+        margin-left: -200px;
+        margin-top: 350px;
+    }
+
+    .recipe_card {
+        margin-top: 100px;
+        margin-left: 50px;
+    }
+
+    .recipe_text {
+        padding-top: 53px;
+    }
+
+    .attachment-recipe-example {
+        margin-left: auto;
+        margin-top: -90px;
+    }
+
+    .redirect_button {
+        margin-left: 180px;
+    }
+
+    .recntagle_two {
+        max-width: 110%;
+    }
+
+    .showcase_screenshot {
+        margin-top: 0px;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 640px) and (max-width: 1280px) {
+
+    .container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .attachment-recipe-example {
+        margin-top: -120px;
+        margin-left: 10px;
+    }
+
+    .recntagle_two {
+        max-width: 115%;
+    }
+
+    .hero_rectangle {
+        margin-top: -600px;
+        margin-left: 50px;
+    }
+
+    .green_circle__recipe {
+        display: none;
+    }
+
+    .showcase_rectangle__right {
+        display: none;
+    }
+
+    .first_screenshot {
+        max-width: 40%;
+    }
+
+    .second_screenshot {
+        max-width: 40%;
+    }
+
+    .first_screenshot__desc {
+        margin-left: 100px;
+    }
+
+    .second_screenshot__desc {
+        margin-left: -360px;
+    }
+
+    .green_circle {
+        margin-left: -40px;
+    }
+
+    .showcase_screenshot {
+        max-width: 40%;
+        margin-top: -50px;
+        margin-left: 100px;
+    }
+
+    #showcase {
+        margin-top: 0;
+    }
+}
+
+
+    

@@ -13,32 +13,44 @@
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
 
-<section id="navbar" class="bg-background h-44 w-full flex flex-wrap content-center font-ubuntu">
+<nav id="navbar" class="bg-background py-10 w-full flex flex-wrap content-center font-ubuntu">
     <div class="container m-auto">   
-        <div class="grid grid-cols-3 gap-4 h-1/2 w-full">
+        <div class="lg:flex">
         <!-- LEFT SECTION -->
+        <div class="flex justify-between">
         <a href="/">
             <div class="flex justify-start">
-                <?php 
-                    $custom_logo_id = get_theme_mod( 'custom_logo' );
-                    $custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
-                    echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';
-                ?>
-                <h1 class="my-auto pl-5 font-ubuntu text-5xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
+                <div class="logo">
+                    <?php 
+                        $custom_logo_id = get_theme_mod( 'custom_logo' );
+                        $custom_logo_url = wp_get_attachment_image_url( $custom_logo_id , 'full' );
+                        echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';
+                    ?>
+                </div>
+                <h1 class="my-auto pl-5 font-ubuntu text-3xl md:text-5xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
+
             </div>
         </a>
-        <!-- MIDDLE MENU SECTION -->
-        <div class="flex justify-center text-textgray text-2xl m-auto">
-            <?php wp_nav_menu(); ?>      
+        <!-- HAMBURGER MENU -->
+        <button class="nav-toggler lg:hidden hover:bg-gray-400 rounded" data-target="#navigation">
+            <i class="fas fa-bars text-3xl px-4 "></i>
+        </button>
         </div>
-        <!-- LOGIN SECTION -->
-        <div class="flex justify-center">
-            <ul class="flex my-auto">
-                <li class="text-textblack text-2xl font-bold">Login</li>
-                <li class="ml-12 text-green-register text-2xl font-bold">Register</li>
-            </ul>
+
+        <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mx-auto mt-10 md:mt-0" id="navigation">
+          <!-- MIDDLE MENU SECTION -->
+          <div class="flex justify-center text-textgray text-2xl m-auto">
+              <?php wp_nav_menu(); ?>      
+          </div>
+          <!-- LOGIN SECTION -->
+          <div class="flex justify-center">
+              <ul class="flex my-auto">
+                  <li class="text-textblack text-2xl font-bold">Login</li>
+                  <li class="ml-12 text-green-register text-2xl font-bold">Register</li>
+              </ul>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-</section>
+</nav>
     
