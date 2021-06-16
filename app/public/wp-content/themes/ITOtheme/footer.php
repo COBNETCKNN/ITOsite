@@ -2,7 +2,7 @@
 
 
 <!-- FOOTER -->
-<section id="footer" class="bg-background footer h-80 flex flex-wrap content-center font-ubuntu">
+<section id="footer" class="bg-background footer h-96 flex flex-wrap content-center font-ubuntu">
     <div class="container m-auto">
         <div class="grid lg:grid-cols-4 gap-4 h-44">
             <!-- LOGO SECTION -->
@@ -14,16 +14,15 @@
                     echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';
                 ?>
             </div>
-            <h1 class="my-auto pl-5 font-ubuntu text-4xl md:text-5xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
+            <h1 class="my-auto pl-5 font-ubuntu text-3xl md:text-3xl xl:text-4xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
             </div>
-            <!-- FIRST FOOTER MENU SECTION -->
-            
-                <div class="hidden md:block text-footermenu text-2xl m-auto mb-4">
-                    <h3 class="text-center text-green-register text-4xl font-bold mb-4 ml-2">Daietto</h3>
+            <!-- FIRST FOOTER MENU SECTION -->          
+                <div class="hidden md:block text-footermenu lg:text-xl xl:text-2xl m-auto mb-4">
+                    <h3 class="text-center text-green-register lg:text-3xl xl:text-4xl font-bold mb-4 ml-2">Daietto</h3>
                     <?php wp_nav_menu(array('theme_location' => 'first-footer-menu')); ?>      
                 </div>
                 <!-- SECOND FOOTER MENU SECTION -->
-                <div class="hidden md:block text-footermenu text-2xl mb-4">
+                <div class="hidden md:block text-footermenu lg:text-xl xl:text-2xl mb-4">
                     <?php wp_nav_menu(array('theme_location' => 'second-footer-menu')); ?>     
                 </div>
 

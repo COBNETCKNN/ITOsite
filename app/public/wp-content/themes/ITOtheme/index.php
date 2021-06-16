@@ -20,7 +20,7 @@
   <div class="container m-auto lg:pt-28 pb-32">
     <div class="grid lg:grid-cols-2 gap-0">
       <!-- FIRST COLUMN ABOUT DOWNLOAD-->
-      <div class="">
+      <div class="">r
         <!-- GREY LINE -->
         <div class="grey-line bg-blacktext p-1 rounded-3xl w-14"></div>
         <!-- HEADING SECTION -->
@@ -93,7 +93,7 @@
     <div class="container m-auto">
       <div class="grid md:grid-cols-2 mx-auto">
         <!-- RECIPE COLUMN -->
-        <div class="recipe_grid grid md:grid-cols-2 flex justify-center order-last md:order-first">
+        <div class="recipe_grid grid lg:grid-cols-2 flex justify-center order-last md:order-first">
 
           <?php 
           // custom query for recipes custom post type
@@ -121,7 +121,7 @@
             <?php the_post_thumbnail('recipe-example'); ?>
             <div class="recipe">
              <img src="<?php echo get_template_directory_uri() . '/img/rectangle2.png'; ?>" alt="" class="recntagle_two flex relative z-0">
-             <h2 class="recipe_text text-2xl md:text-2xl lg:text-4xl font-semibold text-blacktext"><?php the_title(); ?></h2>
+             <h2 class="recipe_text text-2xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-blacktext"><?php the_title(); ?></h2>
              <div class="nutrition flex text-3xl font-semibold">
               <p class="calories text-redtext"><?php echo $recipeCalories; ?></p>
               <p class="calories ml-11"><?php echo $recipeFat; ?>g</p>

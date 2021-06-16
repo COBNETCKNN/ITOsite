@@ -63,5 +63,10 @@ function itosite_post_types(){
     ));
 
 }
-
 add_action('init', 'itosite_post_types');
+
+/* EXCLUDE NODE_MODULES FROM ALL IN ONE MIGRATION */
+add_filter('ai1wm_exclude_content_from_export', function($exclude_filters) {
+  $exclude_filters[] = 'themes/ITOtheme/node_modules';
+  return $exclude_filters;
+});

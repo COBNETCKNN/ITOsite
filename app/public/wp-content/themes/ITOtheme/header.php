@@ -27,7 +27,7 @@
                         echo '<img src="' . esc_url( $custom_logo_url ) . '" alt="">';
                     ?>
                 </div>
-                <h1 class="my-auto pl-5 font-ubuntu text-3xl md:text-5xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
+                <h1 class="my-auto pl-5 font-ubuntu text-3xl md:text-3xl xl:text-4xl font-bold text-textblack"><?php bloginfo('name'); ?></h1>
 
             </div>
         </a>
@@ -39,14 +39,14 @@
 
         <div class="hidden top-navbar w-full lg:inline-flex lg:flex-grow lg:w-auto mx-auto mt-10 md:mt-0" id="navigation">
           <!-- MIDDLE MENU SECTION -->
-          <div class="flex justify-center text-textgray text-2xl m-auto">
+          <div class="flex justify-center text-textgray lg:text-xl xl:text-2xl m-auto">
               <?php wp_nav_menu(); ?>      
           </div>
           <!-- LOGIN SECTION -->
           <div class="flex justify-center">
               <ul class="flex my-auto">
-                  <li class="text-textblack text-2xl font-bold">Login</li>
-                  <li class="ml-12 text-green-register text-2xl font-bold">Register</li>
+                  <a href="#"><li class="text-textblack lg:text-xl xl:text-2xl font-bold">Login</li></a>
+                  <a href="#"><li class="ml-12 text-green-register lg:text-xl xl:text-2xl font-bold">Register</li></a>
               </ul>
           </div>
         </div>
